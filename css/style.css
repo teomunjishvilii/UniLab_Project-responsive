@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/FreeSansBold.ttf) format("ttf"),
+    url(../fonts/FreeSansBold.woff) format("woff"),
+    url(../fonts/FreeSansBold.woff2) format("woff2");
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+/* .container1 {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+/* Header */
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 22px;
+}
+
+nav ul li a {
+  font-size: 11px;
+  color: #959798;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+
+nav ul li:nth-of-type(1) a {
+  color: #343638;
+}
+
+nav img {
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 30px;
+  height: 30px;
+}
